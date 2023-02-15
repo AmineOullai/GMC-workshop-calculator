@@ -7,7 +7,7 @@ const theme1 = {
   /*text*/
   "--text-blue": "hsl(221, 14%, 31%)",
   "--text-white": "hsl(0, 0%, 100%)",
-
+  "--screen-text": "white",
   /*keys*/
 
   "--keys-func-bg": "hsl(225, 21%, 49%)",
@@ -97,3 +97,4 @@ function applyTheme(index) {
     rootEl.style.setProperty(key, selectedTheme[key]);
   }
 }
+applyTheme(0);
